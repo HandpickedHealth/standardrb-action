@@ -2,12 +2,14 @@
 
 source "https://rubygems.org"
 
+ruby file: ".ruby-version"
+
 group :development do
-  gem "standard", "~> 1.10"
+  gem "standard", "~> 1.57"
 end
 
 group :test do
-  gem "json", "~> 2.6.1"
-  gem "rspec", "~> 3.11.0"
-  gem "webmock", "~> 3.14"
+  gem "json", "~> 3.1"
+  gem "rspec", "~> 3.13"
+  gem "webmock", "~> 3.36"
 end
